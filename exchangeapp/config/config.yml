@@ -1,0 +1,13 @@
+app:
+  name: CurrencyExchangeApp
+  port: :8888
+
+database:
+  dsn: root:123456@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=Local
+  maxIdleConns: 10
+  maxOpenConns: 100
+
+redis:
+  address: "localhost:6379"
+  DB: 0
+  password: ""
